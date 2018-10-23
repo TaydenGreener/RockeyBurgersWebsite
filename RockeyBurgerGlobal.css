@@ -46,3 +46,11 @@
 .blur-test {
     filter: blur(0px);
 }
+
+.firstquestion {
+    display: none;
+}
+
+.secondquestion {
+    display: none;
+}

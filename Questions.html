@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="RockeyBurgerGlobal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
     <meta charset="UTF-8">
-    <title>About Us</title>
+    <title>Questions</title>
     <style>
-        .p {
+        p {
             margin-right: 1000px;
         }
     </style>
@@ -25,13 +27,18 @@
     <div>
         <div>
             <br>
-            <button><h3>Why is your Rockey Burger So Expensive?</h3></button>
-            <p class="p">We focus on making meals with the best and freshest ingredients, like humanely-raised beef that is ground fresh each day, oragnic chicken, and Rockey Family Dairy's organic cream for our ice cream cones, sundaes and shakes.</p>
-            <p class="p">Our commitment to freshness and quality means higher prices than you'd find at a traditional fast-food burger chains. It also means food that tastes way better -- because, well, it is.</p>
+            <h3><button onclick="click()">Why is your Rockey Burger So Expensive?</button></h3>
+            <div id="para1" class="firstquestion">
+                <p>We focus on making meals with the best and freshest ingredients, like humanely-raised beef that is ground fresh each day, oragnic chicken, and Rockey Family Dairy's organic cream for our ice cream cones, sundaes and shakes.</p>
+                <p>Our commitment to freshness and quality means higher prices than you'd find at a traditional fast-food burger chains. It also means food that tastes way better -- because, well, it is.</p>
+            </div>
         </div>
         <div>
-            <button><h3>Where does your beef come from?</h3></button>
-            <p class="p">We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in a cut of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste so amazing.</p>
+            <h3><button onclick="click2()">Where does your beef come from?</button></h3>
+            <div id="para2" class="secondquestion">
+                <p>We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in a cut of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste so amazing.</p>
+            </div>
+
         </div>
     </div>
 </body>
